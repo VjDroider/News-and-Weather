@@ -4,6 +4,15 @@
     <style name="Global" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowContentOverlay">@null</item>
+        <item name="android:listViewStyle">@style/Widget.ListView</item>
+    </style>
+    
+    <style name="Widget.ListView" parent="@android:style/Widget.ListView">
+        <item name="android:cacheColorHint">@null</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:dividerHeight">1px</item>
+        <item name="android:divider">#d8d8d8</item>
     </style>
     
     <declare-styleable name="PagerHeader">

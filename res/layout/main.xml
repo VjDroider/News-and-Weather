@@ -8,20 +8,21 @@
     <com.handlerexploit.news.widgets.PagerHeader
         android:id="@+id/pagerHeader"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:background="@android:color/white"
-        noshufou:activeTextColor="@android:color/black"
-        noshufou:inactiveTextColor="@android:color/black"
+        android:layout_height="45dip"
+        android:background="#d3d3d3"
+        noshufou:activeTextColor="#292929"
+        noshufou:inactiveTextColor="#4d4c4c"
         noshufou:showBottomBar="false"
         noshufou:showTopShadow="true"
-        noshufou:fadingEdgeColorHint="@android:color/white"
-        noshufou:tabTextSize="12dip"
-        noshufou:shadowHeight="4dip"
-        noshufou:tabHeight="4dip"/>
+        noshufou:tabColor="@android:color/white"
+        noshufou:fadingEdgeColorHint="#d3d3d3"
+        noshufou:tabTextSize="11dip"
+        noshufou:shadowHeight="5dip"
+        noshufou:tabHeight="5dip"/>
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewPager"
+        android:background="@android:color/white"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"/>
-
 </LinearLayout>
