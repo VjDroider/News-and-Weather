@@ -3,6 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:padding="5dip">
+    
     <com.handlerexploit.news.widgets.RemoteImageView
         android:id="@+id/thumbnail"
         android:layout_width="72dip"
@@ -10,6 +11,7 @@
         android:layout_alignParentRight="true"
         android:layout_marginLeft="5dip"
         android:background="@drawable/placeholder"/>
+    
     <TextView
         android:id="@+id/title"
         android:layout_width="fill_parent"
@@ -17,7 +19,8 @@
         android:layout_toLeftOf="@id/thumbnail"
         android:textSize="14dip"
         android:textStyle="bold"
-        android:textColor="#292929"/>
+        android:textColor="@color/primary_text"/>
+    
     <TextView
         android:id="@+id/source"
         android:layout_width="fill_parent"
@@ -26,5 +29,6 @@
         android:layout_below="@id/title"
         android:layout_alignParentBottom="true"
         android:textSize="14dip"
-        android:textColor="#6e6e6e"/>
+        android:textColor="@color/secondary_text"/>
+    
 </RelativeLayout>
