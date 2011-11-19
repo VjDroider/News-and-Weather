@@ -13,11 +13,10 @@
         noshufou:activeTextColor="@color/primary_text"
         noshufou:inactiveTextColor="@color/secondary_text"
         noshufou:showBottomBar="false"
-        noshufou:showTopShadow="true"
+        noshufou:showTopShadow="false"
         noshufou:tabColor="@android:color/white"
         noshufou:fadingEdgeColorHint="@color/header_background"
         noshufou:tabTextSize="11dip"
-        noshufou:shadowHeight="5dip"
         noshufou:tabHeight="5dip"/>
 
     <android.support.v4.view.ViewPager
