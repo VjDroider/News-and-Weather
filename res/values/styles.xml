@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     
-    <style name="Global" parent="android:Theme">
-        <item name="android:windowNoTitle">true</item>
+    <style name="Global" parent="Theme.Sherlock.Light">
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:listViewStyle">@style/Widget.ListView</item>
     </style>

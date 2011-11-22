@@ -8,7 +8,7 @@
     <com.handlerexploit.news.widgets.PagerHeader
         android:id="@+id/pagerHeader"
         android:layout_width="fill_parent"
-        android:layout_height="45dip"
+        android:layout_height="35dip"
         android:background="@color/header_background"
         noshufou:activeTextColor="@color/primary_text"
         noshufou:inactiveTextColor="@color/secondary_text"
