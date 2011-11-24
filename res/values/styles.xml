@@ -4,6 +4,9 @@
     <style name="Global" parent="Theme.Sherlock.Light">
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:listViewStyle">@style/Widget.ListView</item>
+        <item name="abHeight">45dip</item>
+        <item name="abDisplayOptions">showCustom</item>
+        <item name="abCustomNavigationLayout">@layout/weather_small</item>
     </style>
     
     <style name="Widget.ListView" parent="@android:style/Widget.ListView">

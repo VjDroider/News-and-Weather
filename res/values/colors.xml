@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="header_background">#d3d3d3</color>
     <color name="primary_text">#292929</color>
     <color name="secondary_text">#6e6e6e</color>
+    <color name="header_background">#d3d3d3</color>
+    <color name="actionbar_background">@color/secondary_text</color>
 </resources>
