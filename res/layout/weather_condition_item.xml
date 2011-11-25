@@ -12,7 +12,7 @@
         <TextView
             android:id="@+id/day"
             android:textSize="18dip"
-            android:textColor="@color/secondary_text"
+            android:textColor="@color/primary_text"
             android:singleLine="true"
             android:gravity="center"
             android:layout_width="fill_parent"

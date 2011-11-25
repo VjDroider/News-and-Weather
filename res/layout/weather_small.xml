@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/actionbar_background">
+    android:layout_height="fill_parent">
     
     <TextView
         android:text="News &amp; Weather"
@@ -12,7 +11,11 @@
         android:layout_marginLeft="10dip"
         android:layout_alignParentLeft="true"
         android:layout_width="wrap_content"
-        android:layout_height="fill_parent"/>
+        android:layout_height="fill_parent"
+        android:shadowRadius="0.1"
+        android:shadowDx="0"
+        android:shadowDy="1"
+        android:shadowColor="#88000000"/>
     
     <TextView
         android:id="@+id/weather_small_text"
@@ -22,7 +25,11 @@
         android:layout_marginRight="10dip"
         android:layout_alignParentRight="true"
         android:layout_width="wrap_content"
-        android:layout_height="fill_parent"/>
+        android:layout_height="fill_parent"
+        android:shadowRadius="0.1"
+        android:shadowDx="0"
+        android:shadowDy="1"
+        android:shadowColor="#88000000"/>
     
     <ImageView
         android:id="@+id/weather_small_logo"

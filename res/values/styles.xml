@@ -5,6 +5,7 @@
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:listViewStyle">@style/Widget.ListView</item>
         <item name="abHeight">45dip</item>
+        <item name="abBackground">@color/actionbar_background</item>
         <item name="abDisplayOptions">showCustom</item>
         <item name="abCustomNavigationLayout">@layout/weather_small</item>
     </style>
