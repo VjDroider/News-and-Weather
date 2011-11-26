@@ -7,7 +7,7 @@
         <item name="abHeight">45dip</item>
         <item name="abBackground">@color/actionbar_background</item>
         <item name="abDisplayOptions">showCustom</item>
-        <item name="abCustomNavigationLayout">@layout/weather_small</item>
+        <item name="abCustomNavigationLayout">@layout/actionbar_weather_section</item>
     </style>
     
     <style name="Widget.ListView" parent="@android:style/Widget.ListView">
@@ -28,10 +28,12 @@
         <attr name="fadingEdgeLength" format="dimension" />
         <attr name="fadingEdgeColorHint" format="color" />
         <attr name="backgroundColor" format="color" />
+        <attr name="bottomBarColor" format="color" />
         <attr name="showTopShadow" format="boolean" />
         <attr name="showBottomBar" format="boolean" />
         <attr name="showTab" format="boolean" />
         <attr name="tabTextSize" format="dimension" />
         <attr name="shadowHeight" format="dimension" />
+        <attr name="bottomBarHeight" format="dimension" />
     </declare-styleable>
 </resources>
