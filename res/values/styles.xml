@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     
-    <style name="Global" parent="Theme.Sherlock.Light">
+    <style name="Global" parent="Theme.Sherlock">
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:listViewStyle">@style/Widget.ListView</item>
-        <item name="abHeight">45dip</item>
         <item name="abBackground">@color/actionbar_background</item>
         <item name="abDisplayOptions">showCustom</item>
         <item name="abCustomNavigationLayout">@layout/actionbar_weather_section</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.Sherlock.ActionButton.Overflow</item>
     </style>
     
     <style name="Widget.ListView" parent="@android:style/Widget.ListView">
@@ -16,6 +16,18 @@
         <item name="android:background">@android:color/white</item>
         <item name="android:dividerHeight">1px</item>
         <item name="android:divider">@color/header_background</item>
+    </style>
+    
+    <style name="PagerHeaderDefault">
+        <item name="activeTextColor">@color/primary_text</item>
+        <item name="inactiveTextColor">@color/primary_text</item>
+        <item name="showBottomBar">false</item>
+        <item name="showTopShadow">false</item>
+        <item name="tabColor">@android:color/white</item>
+        <item name="fadingEdgeColorHint">@color/header_background</item>
+        <item name="tabTextSize">@dimen/header_tab_text_height</item>
+        <item name="tabHeight">@dimen/header_tab_height</item>
+        <item name="android:background">@color/header_background</item>
     </style>
     
     <declare-styleable name="PagerHeader">

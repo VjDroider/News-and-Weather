@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="header_tab_text_height">11dip</dimen>
+    <dimen name="header_tab_height">5dip</dimen>
+    <dimen name="actionbar_weather_text_padding_left">5dip</dimen>
+    <dimen name="actionbar_weather_text_padding_right">10dip</dimen>
+</resources>
