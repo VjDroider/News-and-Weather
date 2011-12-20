@@ -4,7 +4,7 @@
     android:layout_height="fill_parent"
     android:padding="5dip">
     
-    <com.handlerexploit.news.widgets.RemoteImageView
+    <com.handlerexploit.core.widgets.RemoteImageView
         android:id="@+id/thumbnail"
         android:layout_width="72dip"
         android:layout_height="72dip"
@@ -22,12 +22,27 @@
         android:textColor="@color/primary_text"/>
     
     <TextView
-        android:id="@+id/source"
-        android:layout_width="fill_parent"
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="bottom"
+        android:layout_marginLeft="5dip"
+        android:textSize="12dip"
+        android:textColor="@color/primary_text"/>
+    
+    <TextView
+        android:id="@+id/source"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/date"
         android:layout_toRightOf="@id/thumbnail"
         android:layout_below="@id/title"
         android:layout_alignParentBottom="true"
+        android:singleLine="true"
+        android:gravity="bottom"
         android:textSize="15dip"
         android:textColor="@color/secondary_text"/>
     
