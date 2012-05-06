@@ -4,7 +4,7 @@
     android:layout_height="fill_parent"
     android:padding="5dip">
     
-    <com.handlerexploit.core.widgets.RemoteImageView
+    <com.handlerexploit.prime.widgets.RemoteImageView
         android:id="@+id/thumbnail"
         android:layout_width="72dip"
         android:layout_height="72dip"

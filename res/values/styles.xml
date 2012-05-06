@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    
-    <style name="Global" parent="Theme.Sherlock">
+
+    <style name="Global">
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:listViewStyle">@style/Widget.ListView</item>
-        <item name="abBackground">@color/actionbar_background</item>
-        <item name="abDisplayOptions">showCustom</item>
-        <item name="abCustomNavigationLayout">@layout/actionbar_weather_section</item>
-        <item name="actionOverflowButtonStyle">@style/Widget.Sherlock.ActionButton.Overflow</item>
     </style>
-    
+
     <style name="Widget.ListView" parent="@android:style/Widget.ListView">
         <item name="android:cacheColorHint">@null</item>
         <item name="android:scrollbars">none</item>
@@ -17,7 +13,7 @@
         <item name="android:dividerHeight">1px</item>
         <item name="android:divider">@color/header_background</item>
     </style>
-    
+
     <style name="PagerHeaderDefault">
         <item name="activeTextColor">@color/primary_text</item>
         <item name="inactiveTextColor">@color/primary_text</item>
@@ -29,23 +25,5 @@
         <item name="tabHeight">@dimen/header_tab_height</item>
         <item name="android:background">@color/header_background</item>
     </style>
-    
-    <declare-styleable name="PagerHeader">
-        <attr name="activeTextColor" format="color" />
-        <attr name="inactiveTextColor" format="color" />
-        <attr name="tabColor" format="color" />
-        <attr name="tabHeight" format="dimension" />
-        <attr name="tabPadding" format="dimension" />
-        <attr name="paddingPush" format="dimension" />
-        <attr name="fadingEdgeLength" format="dimension" />
-        <attr name="fadingEdgeColorHint" format="color" />
-        <attr name="backgroundColor" format="color" />
-        <attr name="bottomBarColor" format="color" />
-        <attr name="showTopShadow" format="boolean" />
-        <attr name="showBottomBar" format="boolean" />
-        <attr name="showTab" format="boolean" />
-        <attr name="tabTextSize" format="dimension" />
-        <attr name="shadowHeight" format="dimension" />
-        <attr name="bottomBarHeight" format="dimension" />
-    </declare-styleable>
+
 </resources>
